@@ -1,4 +1,5 @@
 
+
 var containsDuplicate = function(nums) {
     
     nums=nums.sort();
