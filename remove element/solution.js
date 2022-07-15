@@ -17,3 +17,6 @@ var removeElement = function(nums, val) {
     }
      return nums.length;
 };
+
+
+//time complexity O(n)
