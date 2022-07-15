@@ -11,3 +11,7 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
+
+
+//Time omplexity O(n)
+//Space Complexity O(n)
