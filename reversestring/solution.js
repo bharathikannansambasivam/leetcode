@@ -5,3 +5,6 @@ var reverseString = function(s) {
         s[s.length - i - 1] = temp;
     }
  };
+
+//time complexity   O(N)
+//space complexity  O(N^2)
