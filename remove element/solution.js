@@ -3,20 +3,16 @@
  * @param {number} val
  * @return {number}
  */
-var removeElement = function(nums, val) {
-    
-    
-    for(i=0;i<nums.length;i++){
-        
-        if(nums[i]==val)
-            {
-              nums.splice(i,1);
-                i--
-            }
-       
+var removeElement = function (nums, val) {
+  for (i = 0; i < nums.length; i++) {
+    if (nums[i] == val) {
+      nums.splice(i, 1);
+      i--;
     }
-     return nums.length;
+  }
+  return nums.length;
 };
 
 
 //time complexity O(n)
+//space complexity O(1)
