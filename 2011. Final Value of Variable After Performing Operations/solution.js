@@ -3,15 +3,16 @@
  * @return {number}
  */
 var finalValueAfterOperations = function (operations) {
-    let ans = 0;
-    for (i = 0; i < operations.length; i++) {
-        if (operations[i] == "X++" || operations[i] == "++X") {
-            ans++;
-        }
-        else if (operations[i] == "--X" || operations[i] == "X--") {
-            ans--;
-        }
+  let ans = 0;
+  for (i = 0; i < operations.length; i++) {
+    if (operations[i] == "X++" || operations[i] == "++X") {
+      ans++;
+    } else if (operations[i] == "--X" || operations[i] == "X--") {
+      ans--;
     }
-    return ans;
-
+  }
+  return ans;
 };
+
+//time complexity O(n)
+//space complexity O(1)
