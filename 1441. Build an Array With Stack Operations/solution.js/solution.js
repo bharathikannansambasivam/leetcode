@@ -14,7 +14,11 @@ var buildArray = function (target, n) {
         if (target[j] === i) {
             ans.push("Push");
             j++;
-        } else ans.push("Push", "Pop");
+        }
+       else
+       {
+           ans.push("Push", "Pop");
+       }
     }
     return ans;
 };
